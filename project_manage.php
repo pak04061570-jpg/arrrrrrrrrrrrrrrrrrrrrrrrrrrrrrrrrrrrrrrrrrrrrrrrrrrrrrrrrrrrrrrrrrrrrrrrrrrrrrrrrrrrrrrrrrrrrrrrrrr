@@ -81,7 +81,7 @@ $is_closed = ($proj['status'] == 'Closed');
 
         <div>
             <a href="print_job.php?id=<?php echo $pid; ?>" target="_blank" class="btn btn-outline-secondary rounded-pill px-3 me-2">
-                <i class="fas fa-print me-2"></i> พิมพ์ใบเบิก
+                <i class="fas fa-print me-2"></i> พิมพ์ใบเบิก/ใบคืน
             </a>
             <?php if(!$is_closed): ?>
             <button class="btn btn-danger rounded-pill px-3" onclick="closeJob()">
@@ -565,4 +565,5 @@ $is_closed = ($proj['status'] == 'Closed');
     }
 </script>
 </body>
+
 </html>
